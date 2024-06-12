@@ -1,0 +1,49 @@
+﻿Key,Issue Type,Parent,Summary,Status,Assignee,Description,Start date,Inferred start date,Due date,Inferred due date,Issue color
+DCTP-1,Epic,,DB Creation,To Do,,,,6/3/2024,,6/6/2024,purple
+DCTP-5,Task,DCTP-1,Familiarize with Protocol,To Do,Lead DM,"Lead DM completes familiarization with the protocol of a clinical trial: trial type (open, blind), randomization type, procedures performed to patients.",6/3/2024,6/3/2024,6/5/2024,6/5/2024,purple
+DCTP-19,Task,DCTP-1,Create working group,To Do,Lead DM,"Lead DM creates a project working group (chat in Microsoft Teams) for prompt and efficient communication of the Project Teams (PM, Lead Monitor, Medical Expert, Lead Medical Monitor, Lead SAS-analyst).",6/3/2024,6/3/2024,6/3/2024,6/3/2024,purple
+DCTP-6,Task,DCTP-1,Create test rand list,To Do,BS,Biostatistician creates test randomization list.,6/5/2024,6/5/2024,6/6/2024,6/6/2024,purple
+DCTP-7,Task,DCTP-1,Integrate test rand list,To Do,Lead DM,Lead DM integrates test rand list into DB.,6/6/2024,6/6/2024,6/6/2024,6/6/2024,purple
+DCTP-8,Task,DCTP-1,Prepare TS study DB creation,To Do,Lead DM,Lead DM prepares technical specification on study database creation and key initial technical database settings.,6/5/2024,6/5/2024,6/5/2024,6/5/2024,purple
+DCTP-9,Task,DCTP-1,Approve TS study DB creation,To Do,"PM, ME, Head of DM","Lead DM sends TS for approval to Project Manager, Medical Expert and Head of DM Department.",6/5/2024,6/5/2024,6/6/2024,6/6/2024,purple
+DCTP-10,Task,DCTP-1,Create test study DB,To Do,Lead DM,Lead DM creates study database according to TS on study db creation.,6/6/2024,6/6/2024,6/6/2024,6/6/2024,purple
+DCTP-2,Epic,,DB settings,To Do,,,,6/6/2024,,6/14/2024,blue
+DCTP-47,Task,DCTP-2,Create visit schedule,To Do,Lead DM,Lead DM creates in DB visit schedule according to the Study Protocol.,6/6/2024,6/6/2024,6/6/2024,6/6/2024,purple
+DCTP-14,Task,DCTP-2,Create test sites and subjects,To Do,Lead DM,Lead DM creates in DB test sites and subjects (patients).,6/6/2024,6/6/2024,6/6/2024,6/6/2024,purple
+DCTP-13,Task,DCTP-2,Create eCRFs,To Do,Lead DM,"Lead DM creates in DB electronic Case Report Forms according to the procedures specified in the Study Protocol, and attached them to the relevant visit.",6/6/2024,6/6/2024,6/14/2024,6/14/2024,purple
+DCTP-15,Task,DCTP-2,Create test IP,To Do,Logistics,Logistics specialist creates test Investigational Product and sends it to test sites in order to test randomization/inclusion process in DB.,6/6/2024,6/6/2024,6/14/2024,6/14/2024,purple
+DCTP-22,Task,DCTP-2,Program edit checks and notifications,To Do,Lead DM,Lead DM programs edits checks and automated notifications upon data entry.,6/6/2024,6/6/2024,6/14/2024,6/14/2024,purple
+DCTP-28,Task,DCTP-2,Set up print forms,To Do,Lead DM,Lead DM creates report template(s) in Jaspersoft Studio and set them up in the DB as needed.,6/6/2024,6/6/2024,6/8/2024,6/8/2024,purple
+DCTP-3,Epic,,Project Team Testing,To Do,,,,6/17/2024,,7/16/2024,green
+DCTP-16,Task,DCTP-3,Prepare DB specification,To Do,Lead DM,Lead DM develops DB specification.,6/17/2024,6/17/2024,6/19/2024,6/19/2024,purple
+DCTP-17,Task,DCTP-3,Approve DB specification,To Do,"PM, ME, SAS-analyst, Head of DM","Lead DM sends DB specification for approval to Project Manager, Medical Expert, SAS-analyst and Head of DM Department.",6/19/2024,6/19/2024,6/27/2024,6/27/2024,purple
+DCTP-18,Task,DCTP-3,Initial DB testing,To Do,"PM, ME, MM, SAS-analyst","Lead DM grants access to the test DB to the Project Team for initial DB testing to confirm that DB and eCRF content corresponds with the Protocol (PM and his/her team of monitors, SAS, Medical Expert, Lead Medical Monitor).",6/19/2024,6/19/2024,6/27/2024,6/27/2024,purple
+DCTP-20,Task,DCTP-3,DB initial corrections and adjustments,To Do,Lead DM,Lead DM handles the reports on initial testing by the Project Team and if necessary implements corrections and adjustments to the DB to fix errors or inconsistencies.,7/1/2024,7/1/2024,7/5/2024,7/5/2024,purple
+DCTP-21,Task,DCTP-3,DB retesting and correcting,To Do,"PM, ME, MM, SAS-analyst, Lead DM",Conduct retesting rounds until all comments from the project team are fully addressed.,7/8/2024,7/8/2024,7/16/2024,7/16/2024,purple
+DCTP-4,Epic,,UAT,To Do,,,,7/22/2024,,8/9/2024,teal
+DCTP-23,Task,DCTP-4,Initial UAT,To Do,Assistant DM,Assistant DM validates whether the DB meets its technical requirements.,7/22/2024,7/22/2024,7/26/2024,7/26/2024,purple
+DCTP-24,Task,DCTP-4,DB corrections after UAT,To Do,Lead DM,Lead DM handles the UAT report and if necessary implements corrections and adjustments to the DB to fix errors or inconsistencies.,7/29/2024,7/29/2024,8/1/2024,8/1/2024,purple
+DCTP-25,Task,DCTP-4,Repeated UAT and corrections,To Do,"Assistant DM,  Lead DM",Conduct retesting rounds until all comments from the Assistant DM are fully addressed.,8/2/2024,8/2/2024,8/9/2024,8/9/2024,purple
+DCTP-29,Epic,,DB Documentation,To Do,,,,6/20/2024,,7/31/2024,yellow
+DCTP-30,Task,DCTP-29,Prepare DVP,To Do,Lead DM,Lead DM develops Data Validation Plan (DVP).,6/20/2024,6/20/2024,6/25/2024,6/25/2024,purple
+DCTP-31,Task,DCTP-29,Approve DVP,To Do,"SAS-analyst, MM",Lead DM sends DVP for approval to SAS-analyst and Medical Monitor.,6/26/2024,6/26/2024,7/2/2024,7/2/2024,purple
+DCTP-32,Task,DCTP-29,Prepare edit check specification,To Do,Lead DM,Lead DM develops a specification of the edit checks programmed in the DB.,6/20/2024,6/20/2024,6/25/2024,6/25/2024,purple
+DCTP-33,Task,DCTP-29,Approve edit check specification,To Do,"SAS-analyst, MM",Lead DM sends the edit check specification for approval to SAS-analyst and Medical Monitor.,6/26/2024,6/26/2024,7/2/2024,7/2/2024,purple
+DCTP-34,Task,DCTP-29,Prepare CCGs,To Do,Lead DM,Lead DM develops the eCRF Completion Guidelines of the DB.,7/8/2024,7/8/2024,7/12/2024,7/12/2024,purple
+DCTP-35,Task,DCTP-29,Approve CCGs,To Do,"PM, MM",Lead DM sends the eCRF Completion Guidelines for approval to PM and Medical Monitor.,7/15/2024,7/15/2024,7/26/2024,7/26/2024,purple
+DCTP-36,Task,DCTP-29,Prepare notification specification,To Do,Lead DM,Lead DM develops a specification of the automated notifications programmed in the DB.,6/20/2024,6/20/2024,6/25/2024,6/25/2024,purple
+DCTP-37,Task,DCTP-29,Approve notification specification,To Do,"PM, Head of DM",Lead DM sends the notification specification for approval to PM and Head of DM.,6/26/2024,6/26/2024,7/2/2024,7/2/2024,purple
+DCTP-42,Task,DCTP-29,Prepare eCRF Content,To Do,Lead DM,Lead DM develops the eCRF Content based on the approved DB specification. and shares it to the PM and his/her team of monitors,7/24/2024,7/24/2024,7/31/2024,7/31/2024,purple
+DCTP-11,Epic,,DB to Production,To Do,,,8/12/2024,8/12/2024,8/17/2024,8/17/2024,orange
+DCTP-26,Task,DCTP-11,Develop TS DB to production,To Do,Lead DM,"Lead DM prepares and sends for approval (PM, Medical Expert, Lead Medical Monitor, Lead SAS-analyst, Head of DM) TS on migration the DB from the testing environment to production.",8/12/2024,8/12/2024,8/12/2024,8/12/2024,purple
+DCTP-27,Task,DCTP-11,DB migration to production,To Do,Lead DM,Lead DM migrates the DB to the production environment and informs the Project Team on that,8/12/2024,8/12/2024,8/12/2024,8/12/2024,purple
+DCTP-41,Task,DCTP-11,Create sites,To Do,Lead DM,Lead DM creates in the production DB sites that participate in the study (provided by the PM).,8/12/2024,8/12/2024,8/12/2024,8/12/2024,purple
+DCTP-44,Task,DCTP-11,Integrate Lab values,To Do,Lead DM,Lead DM receives laboratory reference ranges of each site (provided by the PM) and integrates them in the DB Laboratory Norms Module.,8/12/2024,8/12/2024,8/17/2024,8/17/2024,purple
+DCTP-45,Task,DCTP-11,Lab values check,To Do,Lead DM,Assistant Data Manager checks that the lab values are consistent in the DB and provided documentation.,8/12/2024,8/12/2024,8/17/2024,8/17/2024,purple
+DCTP-48,Task,DCTP-11,Create rand list,To Do,BS,Biostatistician creates randomization list. ,8/12/2024,8/12/2024,8/13/2024,8/13/2024,purple
+DCTP-49,Task,DCTP-11,Integrate rand list,To Do,Lead DM,Lead DM integrates randomization list into DB.,8/13/2024,8/13/2024,8/14/2024,8/14/2024,purple
+DCTP-50,Task,DCTP-11,Create IP,To Do,Logistics,Logistics specialist creates Investigational Product and sends it to sites for randomization/inclusion in DB.,8/12/2024,8/12/2024,8/14/2024,8/14/2024,purple
+DCTP-38,Epic,,Training and access,To Do,,,8/19/2024,8/19/2024,8/23/2024,8/23/2024,grey
+DCTP-39,Task,DCTP-38,Project Team training,To Do,Lead DM,Lead DM conducts training sessions for the Project Team.,8/19/2024,8/19/2024,8/23/2024,8/23/2024,purple
+DCTP-40,Task,DCTP-38,Research team training,To Do,Lead DM,Lead DM conducts training sessions for the Research Team (Investigational sites).,8/19/2024,8/19/2024,8/23/2024,8/23/2024,purple
+DCTP-43,Task,DCTP-38,Grant access,To Do,Lead DM,"Lead DM creates user credentials and grants access to the DB to the study participant (Project Team and Research Team, the last one provided by the PM).",8/19/2024,8/19/2024,8/23/2024,8/23/2024,purple
