@@ -1,0 +1,1 @@
+"C:/Users/annav/pdi-ce-9.4.0.0-343/data-integration/kitchen.bat" /file="C:/Users/annav/temp_jobs/Final_job.kjb"
